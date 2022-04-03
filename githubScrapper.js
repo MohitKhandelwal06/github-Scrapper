@@ -1,6 +1,9 @@
 const cheerio=require('cheerio');
 const request=require('request');
 const {topics}=require('./topics.js');
+const path=require('path');
+const fs=require('fs');
+
 let url='https://github.com';
 request(url,cb);
 
